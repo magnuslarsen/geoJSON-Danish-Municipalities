@@ -12,6 +12,23 @@ To update the geoJSON map, run the following:
 ./apply_csv.rb
 ```
 
+# Kibana configuration
+Simply add this to your `kibana.yml` file:
+```
+map.regionmap:
+  layers:
+  - name: "Municipalities of Denmark"
+    url: "https://raw.githubusercontent.com/magnuslarsen/geoJSON-Danish-municipalities/master/municipalities.geojson"
+    attribution: "Geodatastyrelsen & Danske Kommuner"
+    fields:
+    - name: "label_en"
+      description: "Municipality name (in English)"
+    - name: "label_dk"
+      description: "Municipality name (in Danish)"
+    - name: "lau_1"
+      description: "LAU-1 code"
+```
+
 ## Helpful links
 https://en.wikipedia.org/wiki/List_of_municipalities_of_Denmark
 
