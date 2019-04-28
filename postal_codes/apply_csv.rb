@@ -8,7 +8,6 @@ geojson = JSON.load(File.open('postal_codes.geojson'))
 
 geojson['features'].select do |postal_code|
   row_data = csv_table.find { |r| r['postal_code'].to_s == postal_code['properties']['postal_code'].to_s }
-
   postal_code['properties'] = {}
 
   row_data.each do |header, value|
