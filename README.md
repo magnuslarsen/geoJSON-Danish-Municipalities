@@ -1,6 +1,8 @@
 # Danish municipalities geoJSON
 This is meant to be used in [Elastic Map Services](https://maps.elastic.co/) or other similar services
 
+To use this map with private IP-ranges, see [this repository](https://github.com/magnuslarsen/CustomMaxmindDatabase)
+
 ## Update map properties
 lau_1 is fixed. Do not change this.
 Rest can be changed as pleased.
