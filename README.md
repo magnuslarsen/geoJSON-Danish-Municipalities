@@ -4,7 +4,7 @@ This is meant to be used in [Elastic Map Services](https://maps.elastic.co/) or 
 To use this map with private IP-ranges, see [this repository](https://github.com/magnuslarsen/CustomMaxmindDatabase)
 
 ## Update map properties
-lau_1 and postal_code is fixed. Do not change these. \
+`lau_1` and `postal_code` are fixed. Do not change these. \
 Rest can be changed as pleased.
 
 To update a geoJSON map, do the following:
