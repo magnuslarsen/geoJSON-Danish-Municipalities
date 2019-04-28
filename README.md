@@ -37,11 +37,11 @@ map.regionmap:
     attribution: "Geodatastyrelsen & Danske Kommuner"
     fields:
     - name: "label_en"
-      description: "Municipality name (in English)"
+      description: "Postal name (in English)"
     - name: "label_dk"
-      description: "Municipality name (in Danish)"
-    - name: "lau_1"
-      description: "LAU-1 code"
+      description: "Postal name (in Danish)"
+    - name: "postal_code"
+      description: "Postal code"
 ```
 
 ## Helpful links
