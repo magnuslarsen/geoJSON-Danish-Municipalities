@@ -17,4 +17,4 @@ https://en.wikipedia.org/wiki/List_of_municipalities_of_Denmark
 
 ## Source
 geoJSON map forked from [dagi](https://github.com/Neogeografen/dagi): \
-Geodatastyrelsen & Danske Kommuner - FOT data set - 2014-02-13 -Scale 1:500.000
+Geodatastyrelsen & Danske Kommuner - FOT data set - 2014-02-13 - Scale 1:500.000
